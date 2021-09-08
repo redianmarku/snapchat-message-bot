@@ -1,5 +1,5 @@
 import pyautogui as pag
-import sys, json, requests, keyboard, time, pyperclip
+import keyboard, time, pyperclip
 
 yourMessage = input("What message do you want to send in the chats?: ")
 
