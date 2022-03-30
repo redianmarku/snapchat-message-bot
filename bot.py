@@ -53,7 +53,6 @@ for i in range(howMany):
     time.sleep(1)
     time.sleep(2)
     postBeforeDrag = pag.position()
-    dragUp(150, time=0.5)
     pag.moveTo(postBeforeDrag[0], postBeforeDrag[1])
 
 def doRefresh():
