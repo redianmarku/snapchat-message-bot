@@ -13,7 +13,7 @@ print("\nNow open Snapchat in your emulator and place the mouse in one of your c
 while True:
     if keyboard.read_key() == "enter":
         print("Starting bot...")
-        time.sleep(25)
+        time.sleep(3)
         break
     else:
         continue
@@ -42,7 +42,7 @@ pyperclip.copy(yourMessage)
 
 for i in range(howMany):
     pag.click()
-    time.sleep(1.5)
+    time.sleep(25.0)
     pag.hotkey('ctrl', 'v')
     time.sleep(0.3)
     pag.press('enter')
