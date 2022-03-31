@@ -51,7 +51,7 @@ for i in range(howMany):
     dragLeft(300, time=0.5)
     pag.moveTo(postBeforeDrag[0], postBeforeDrag[1])
     time.sleep(1)
-    time.sleep(25)
+    time.sleep(301)
     postBeforeDrag = pag.position()
     pag.moveTo(postBeforeDrag[0], postBeforeDrag[1])
 
