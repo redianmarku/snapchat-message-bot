@@ -38,10 +38,6 @@ def dragLeft(px, time=0.5):
     now = pag.position()
     pag.dragTo(now[0]-px, now[1], time, button='left')
 
-def dragUp(px, time=0.5):
-    now = pag.position()
-    pag.dragTo(now[0], now[1]-px, time, button='left')
-
 pyperclip.copy(yourMessage)
 
 for i in range(howMany):
@@ -57,7 +53,6 @@ for i in range(howMany):
     time.sleep(1)
     time.sleep(2)
     postBeforeDrag = pag.position()
-    dragUp(150, time=0.5)
     pag.moveTo(postBeforeDrag[0], postBeforeDrag[1])
 
 def doRefresh():
